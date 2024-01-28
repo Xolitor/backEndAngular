@@ -1,5 +1,7 @@
 let mongoose = require('mongoose');
 let Schema = mongoose.Schema;
+//const { Matieres } = require('../../demoapp/src/app/assignement/assignement.model');
+
 
 let AssignmentSchema = Schema({
     id: Number,
@@ -7,8 +9,8 @@ let AssignmentSchema = Schema({
     nom: String,
     rendu: Boolean,
     auteur: String,
-    note: Number,
-    Remarque: String,
+    noteSur20: Number,
+    remarque: String,
     matiere: String,
 });
 
